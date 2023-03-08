@@ -1,0 +1,145 @@
+/*IMPORTE FUENTE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/*CLASES GLOBALES*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+footer {
+    min-height: 100px;
+    background-color: #ffd200;
+   
+}
+
+footer p {
+    color:white;
+    text-align: center;
+}
+
+#icons i {
+    font-size: 26px;
+    padding: 0 8;
+    color: white;
+    
+}
+
+
+/*****MEDIA QUERIES*****/
+
+/*MD*/
+@media (max-width:768px){
+    #intro
+    {
+        width: 90% !important;
+    }
+}
+/*XM*/
+@media(max-width: 576px) {
+.icon-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+
+}
+}
+/*LG*/
+@media (max-width:1200px){
+    #datos {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+
+/*PAGINA INICIO*/
+
+/*MENU ENLACES*/
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+    
+}
+
+/*MENU BOTON*/
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*SLIDER DE IMAGENES*/
+
+.carousel-inner {
+    max-height: 55rem;
+
+}
+/***PAGINA CONTACTO Y MAPA***/
+
+#datos{
+padding-bottom: 30px;
+display: flex;
+justify-content: center;
+}
+
+.wrapper{
+    width: auto;
+    margin: center;
+    padding-top: 30px;
+}
+
+#numeros-datos div {
+    padding: 0 20px 0 0;
+    height: 48px;
+}
+
+#numeros-datos div:not(:first-child){
+    border-right: 2px solid #3f3f3f;
+}
+
+#numeros-datos div:not(:last-child){
+    padding-left: 20px;
+}
+
+#numeros-datos p {
+    margin: 0;
+
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    
+
+}
+
+
+
+
